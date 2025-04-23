@@ -8,7 +8,6 @@ kubectl create deployment kubernetes-bootcamp --image=gcr.io/google-samples/kube
 
 ```
 > This performed a few things for you:
-
 > - searched for a suitable node where an instance of the application could be run (we have only 1 available node)
 > - scheduled the application to run on that Node
 > - configured the cluster to reschedule the instance on a new Node when needed
